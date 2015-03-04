@@ -1,0 +1,121 @@
+body, div, ul, ol, ol{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+html{
+    height: 100%;
+}
+body {
+    height: 100%;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.wrap{
+	width: 100%;
+	height: 100%;
+	background: black;
+	color: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.r-list{
+	position: absolute;
+	left: 2%;
+	top: 10%;
+	width: 16%;
+	height: 80%;
+	border: 1px solid #fff;
+	overflow: hidden;
+	opacity: 1;
+}
+
+.r-list ul{
+	position:relative;
+	left: 10%;
+	top: 4%;
+	width: 80%;
+	height: 96%;
+	overflow: hidden;
+}
+
+.r-list ul li{
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 1%;
+	cursor: pointer;
+}
+
+.selected li{
+	color: green;
+}
+
+.r-list ul li:hover{
+	color: green;
+}
+
+.l-cont{
+	position: absolute;
+	right: 4%;
+	top: 10%;
+	border: 1px solid #fff;
+	width: 76%;
+	height: 80%;
+}
+
+.l-cont .tap{
+	position: relative;
+	top: -8%;
+	left: 0;
+	width: 100%;
+	height: 8%;
+	/*border: 1px solid #fff;*/
+}
+
+.tap ol{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width:20%;
+	height: 100%;
+	margin-left: -10%;
+	/*background-color: red;*/
+}
+.tap ol li{
+	float: left;
+	display: inline-block;
+	background-color: black;
+	margin: 0 7% 0 7%;
+	padding: 4% 10%;
+	line-height: 100%;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.tap ol li:hover{
+	border: 1px solid black;
+	background-color: #fff;
+	color: black;
+}
+
+.cont-pic{
+	display: none;
+}
+.cont-lyc{
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

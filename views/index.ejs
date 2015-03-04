@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>music</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="wrap">
+      <div id='list' class="r-list">
+      	<ul>
+<!--       		<li class="selected">111</li>
+      		<li>222</li>
+      		<li>333</li> -->
+          <% music.forEach(function(name){%>
+            <%if(name.slice(-4) == '.mp3'){%>
+              <li title="<%= name%>"><%= name%></li>
+            <%}%>
+          <%}) %>
+      	</ul>
+      </div>
+      <div class="l-cont">
+      	<div class="tap">
+      		<ol>
+            <!-- <li id='btn-pic'>照片</li>  -->
+            <!-- <li id='btn-lyc'>歌词</li>  -->
+          </ol>
+      	</div>
+      	<div class="cont">
+      		<!-- <div id='pic' class="cont-pic">
+      			
+      		</div> -->
+      		<div id='lyc' class="cont-lyc">
+      			
+      		</div>
+      	</div>
+      </div>
+    </div>
+    <script src='/javascripts/main.js'></script>
+    <script src='/javascripts/index.js'></script>
+  </body>
+</html>
