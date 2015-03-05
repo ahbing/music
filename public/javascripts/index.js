@@ -1,7 +1,7 @@
 var oList = document.getElementById('list');
-var oPicBtn = document.getElementById('btn-pic');
+var oUploadBtn = document.getElementById('btn-upload');
 var oLycBtn = document.getElementById('btn-lyc');
-var oPic = document.getElementById('pic');
+var oUpload = document.getElementById('upload');
 var oLyc = document.getElementById('lyc');
 
 
@@ -12,12 +12,12 @@ oList.onmouseout = function(){
 	this.style.opacity = 0.8;
 };
 
-oPicBtn.onclick = function(){
+oUploadBtn.onclick = function(){
 	oLyc.style.display = 'none';
-	oPic.style.display = 'block';
+	oUpload.style.display = 'block';
 };
 
 oLycBtn.onclick = function(){
 	oLyc.style.display = 'block';
-	oPic.style.display = 'none';
+	oUpload.style.display = 'none';
 };
