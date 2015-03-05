@@ -1,0 +1,2 @@
+var mongodb = requrie('./db');
+
